@@ -335,5 +335,16 @@ a:hover {
     border-radius: 5px;
     font-size: 16px;
     margin-top: 10px; 
-
+footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center; /* Center align text */
 }
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #777; 
+    display: inline-block; 
+}
+
