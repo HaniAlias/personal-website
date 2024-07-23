@@ -166,7 +166,7 @@ h2 {
     max-width: 800px;
 }
 
-.education-list li, .experience-list li {
+.education-list li, .experience-list li, .my sibling-list li {
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #ddd;
     padding-bottom: 0.5rem;
