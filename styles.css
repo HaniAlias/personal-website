@@ -264,7 +264,6 @@ table {
   font-family: Arial, sans-serif;
 }
 
-/* Style table header */
 th {
   background-color: #f2f2f2;
   text-align: left;
@@ -272,14 +271,12 @@ th {
   border: 1px solid #ddd;
 }
 
-/* Style table rows */
 td {
   padding: 8px;
   border: 1px solid #ddd;
   text-align: left;
 }
 
-/* Alternate row color for better readability */
 tr:nth-child(even) {
   background-color: #f9f9f9;
 }
@@ -291,20 +288,19 @@ tr:nth-child(even) {
   color: #666;
 }
 
-/* Adjust spacing around the table */
 .table-container {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 #contact {
-    text-align: center; /* Center align all text content */
+    text-align: center;
     padding: 20px;
-    background-color: #f5f5f5; /* Light background color */
+    background-color: #f5f5f5; 
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto; /* Center align container */
+    margin: 0 auto; 
 }
 
 h2 {
@@ -319,12 +315,12 @@ p {
 }
 
 a {
-    color: #007bff; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: #007bff; 
+    text-decoration: none; 
 }
 
 a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 .caption {
     font-style: italic;
@@ -333,17 +329,11 @@ a:hover {
 .btn-home {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Button text color */
+    background-color: #007bff;
+    color: #fff; 
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px; 
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
 }
