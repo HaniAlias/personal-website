@@ -1,0 +1,272 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul.education-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.education-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.education-info {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .education-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .education-img {
+        margin-bottom: 10px;
+    }
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.profile-info h1 {
+    margin-bottom: 0.5rem;
+}
+
+.profile-info p {
+    font-size: 1rem;
+}
+
+.navbar {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.nav-list li a:hover {
+    background: #555;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.personal-details {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.personal-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.personal-details li {
+    margin-bottom: 0.5rem;
+}
+
+.education-list, .experience-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.education-list li, .experience-list li {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.skills-list {
+    text-align: center;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.skill-bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+
+.skill-level {
+    background: #333;
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: center;
+}
+
+.photo-gallery img {
+    width: calc(20% - 15px); 
+    height: auto;
+    border-radius: 8px; 
+    object-fit: cover; 
+    transition: transform 0.3s; 
+}
+
+.photo-gallery img:hover {
+    transform: scale(1.05); 
+}
+
+
+.video-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 50%;
+    height: 700px; 
+    max-width: 100%;
+    border-radius: 8px; 
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.photo-gallery img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+#family {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.family-picture {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.caption {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
