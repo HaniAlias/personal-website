@@ -339,11 +339,7 @@ a:hover {
     border-radius: 5px;
     font-size: 16px;
     margin-top: 10px; /* Adjust as needed */
-}
 
-.btn-home:hover {
-    background-color: #0056b3; /* Darker background color on hover */
-}
 footer {
     background: #333;
     color: #fff;
